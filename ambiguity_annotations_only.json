@@ -1,0 +1,3551 @@
+[
+  {
+    "uid": "9cca630d78be40e183d893ddb40632c1",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Shares that are positive\" does not have a definite interpretation (there are vested and forfeited)",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)",
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "2c9988d9cd9846a79794a25e40dbe960",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "\"Elements\" is uderdefined. \"Elements in 2012\" may or may not include quarter-specific values.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (when)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b52ac057503f483ca5e6a9c4bbef9367",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "1. Query doesn't state that it wants Bank, N.A and not Co.\n2. Additionally, the source document contains information on capital for both the standardized and advanced frameworks; the question does not specify which to use",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "326f465758bf44c08bd21a20dfcf8e4f",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The term \"section\" could refer to high-level totals or low-level values due to nested headers, resulting in different values. Further, there is insufficient information to determine a growth rate.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize",
+          "Semantic"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)",
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "05d560d08fbc406990e7b02b415aa60a",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Case reserves of 2009 Gross\" could refer to a value in table 2, or another in table 3 in which loss expenses have been deducted. However, both are literally labeled as \"2009\", \"gross\", and \"case reserves\".",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (where)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a3c210e328d0459c833cb290fecd2e6f",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Case reserves of 2008 net\" could be values on different tables depending on interpretation. \"Average\" could refer to the average of each value, or the averaging of them together. The averaging together would no make sense since the values are of fundamentally different units.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (where)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "2a9928d6aa7a42b9b76531cf98982a26",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The question asks for the sum of values that are meaningless together. Additionally, there is data on fixed annuities and retirement products for multiple years, which are not specified in the question.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize",
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "1ff6825a36324e9f91b583351b9d65d1",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"highest total amount\" can be interpreted logically/mathematically in multiple ways due to table divisions",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9da8a53a9b8b44f7b055599556c61830",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Section\" is ambiguous",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c67c1da6d6dd486e8710097177b62641",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Multiple tables contain relevant information for different regions. It is unclear whether the international total for 2010 from table 0 should be included, or if the sum should only include the multi-year Norway data presented in table 1.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (where)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "11904e0323e04189a6d0c03ebec8c27f",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Average of the Total operating revenues\" creates a conflict since a Total is typically one number, but an average of the total is requested. \"the year\" implies data for a single year but the condition \"is positive\" is true for multiple years.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "1cdc15feac50418a8957fe0cf1e27239",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Units are ambiguous- the table data is in millions but the cutoff to be included isn't sepecified as being in millions. \"EMEA Latin America\" isn't a specified region. The question is ungrammatical unless phrases are considered as complex table headers.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (where)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "726cd7b7eba14ee6bb7ea372b564e94f",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"Incurred Losses\" could refer to either net or gross loss",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "73ff3a747e0043daadfb2671f2c66c46",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "The query asks for information that is available in two tables: 'Comparable Systemwide North American Properties' in Table 5, and 'Comparable Company-Operated North American Properties' in Table 4. \"Elements for RevPAR\" is somewhat nonsensical since RevPAR is a metric (Revenue per available room). The question could refer to the total number of properties with RevPAR > 150, or the total amount of revenue for those.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)",
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "6e0b921bdc8b4eef9795545de529ccd8",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "Question asks for total amount of Balance%, but asks for the answer in units of thousands.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "2d81eb2da6ac4cb1bf99847dd9e51398",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"percentage of Consumer\" is nonsensical unless considering \"Consumer\" as the literal column header.  Additionally the question could be referring to the explicit \"percent of total\" column, which specifies .80, or the value calculated based on other table values.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "957ef731274e4404b16caada9e4e0652",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"total\" amount could refer to number of defined plan types, or their values in the provided tables. Additionally, \"amount of defined benefit plans\"  could refer to different table sections/line items depending on interpretation",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a45eae0985df4a328a05aa1baae2ad51",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Query doesn't disambiguate where the denominator should come from; \"total\" could refer to several line items. Query is generally malformed.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "594683bc8a3a48429e372d673ac103a0",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Total amount of the elements\" is ambiguous; could refer to the number of elements satisfying the condition, or to the actual values. If the latter, \"amount\" could refer to several different units: the table contains information on number of deliveries, revenue, etc.; so, summing all values with the condition together is nonsensical",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "886dc14c22274ea2b815f9078b4f4f3f",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "\"percentual fluctuation\" is ambiguous as fluctuation typically refers to the differing of a quantity over a time, but the question specifies a single year. Percentual fluctuation could refer directly to the percentage of change between the provided returns, or the difference between the percentage-indexed returns.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "bc7d6c60d91c4a6da7a94008f1800e84",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Ambiguity about the year; additionally wording in \"decrceases in current period tax positions\" introduces ambiguity as to whether the negative value or absolute value should be used",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (when)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "4b3181227ffd4a69a222087cbdca0cc4",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"the total\" is not clearly defined. The question could be asking for 2 numbers, e.g. corporate loans/(corporate loans + loan commitments) amd loan commitments/(corporate loans + loan commitments), or a single number where the denominator is some other value.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "46f847b98b48481aac7a2e70ce8705ec",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Elements in the Auto & Home have overlap, making it unclear whether the answer should take into account LITERALLY every positive value in the column, or only the ones without overlap. Additionally, there is Home & Auto info for multiple years.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (when)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7dd8092093fc4e59b98ee05a6b1446b8",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Highest total amount\" could imply highest total carrying amount, or some other value such as the sum of total carrying amount and gross unrealized losses.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a01ba35aab5b4e1e990a303c0a32d4bb",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"The total in 2000\" likely refers to \"the total assets-6 in 2000\" but could potentially refer to a total value in some other table",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "280241c124374067a52086c98c2c8a8b",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"total on December 31, 2016\" could refer to several values in the financial report.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "54c12922cfe549ff99305503d945a049",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The report contains information on both consumer insurance and retirement for 2014 and 2015. It is unclear from the question which line item should be analyzed.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a6ba3eabe728410191c118955c734b29",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The sum of the total of million of Kwhs and the total of dollars is nonsensical. The query could refer to either one, or the literal value of them summed up.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "16259b4e73484cfa92ff1a2349fb404e",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Fixed income is available for both iShares AUM, and institutional AUM.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a7a7582206944c1b8ed6be7bbc05336b",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Funded status change in plan assets is a negative number. It is unclear whether the answer should take into account the sign of the change, and it's difficult to tell from context, since the sum of these values is meaningless.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Generalize"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c347852afc26409698df26b26bc5a05c",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Total amount\" could refer to several line items: rental and management revenue, cost of operations, the literal sum of these two line items, or something more meaningful like operating revenue.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f384900b56594e49bb9d7f099a5481eb",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Because this question doesn't result in a meaningful answer, it could be interpreted as requesting the sum of the raw cell values or the sum normalized for units.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "fc51f017611c48b596027216a51171fd",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "There are two tables with values for \"Investment Bank\" and \"Total\" from 2008-2009, for provision and allowance for credit losses.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "dad567c1909e4f93920460b01c3f3afe",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "There are multiple ambiguous phrasings in the query: \"Residential/Consumer\" doesn't indicate a specific enough value, nor does \"total\".",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "6a0f1b1690954cf995f94b710c5354e5",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "Both \"gross\" and \"net\" paid loss values are available. Additionally it is unclear whether \"amount\" should be the signed or absolute value.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "93e13c7b7c344e0a8978e65ccff0bba4",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "This info exists for multitle entities: Both JP Morgan Chase & Co (Table 1) and JP Morgan Chase Bank, N.A. (Table 2)",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "8b4c8d6df03544418b3d85c1930fb36e",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "The year is not specified for Group retirement products. This implies that a total over all years might be desired, except that a year is specified for the other items.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (when)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "1c37de8c8545490fb03d0ed09eaaa0b7",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The provided document gives information on income taxes payable as reported and as adjusted; the question does not specify which value to consider",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "202486a7153344d697aaaa61cba0a553",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "The dash in the query could be interpreted as a signifier for \"and\" or \"through\", or could signify the subtraction of the following values.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c1cdf0f80f3d4416a969c836094f8532",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "It is unclear whether the query is asking for increased net sales for f-35 production or in general. Increased sales volume is unavailable for f-35 production.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a3908b821ac5470a935233f0bda0081e",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Answers differ/are rounded between table and text",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c61f818bb36e4baf9cbac9e266edea00",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is unclear whether the literal value or magnitude of the reserve should be reported",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0659207729464aaab723a42e3c6f5c02",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is unclear whether the intention is to return values for JP Morgan Chase, its subsidiary, or both",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "aad54f148a144ed28f0cffc0a0331fe0",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "It is unclear whether least charge-offs refers to the lowest amount of money lost, or the literal lowest value.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f9ef2efc42da4fbdac9844e2c88d1172",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "It is unclear whether the absolute or literal value of loans and losses charged should be used",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "1f678f7e298943a59b704bb2f562327a",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "It is unclear whether the year constraint applies to \"Employee separations of Other\"",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "ea0c042f8bc747fca8b8d7143c21254c",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "The direction of the ratio is not specified",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7f4275332df14b99a3f5834212a7bfc2",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The estimated price could refer to price per stock, or price of whole transaction",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7e0bd5c0aedf481aab74c049cc460c55",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Table 2 contains rates of change in fuel income for Con Edison between 2013-14, but this value can also be calculated differently from Table 3 which contains consolidated financial results of Con Edison and its businesses, resulting in a different figure.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "8bc56cc247004f3ca9fe6a226d639924",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "The condition is unclear; \"years where Revenues, net of interest expense greater than 80000\" could refer to the year-wide total is greater than 80000, or years in which one or all of the quarterly expenses reported are greater than 80000.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "789dbdd98de7432ca6ccc967f09798dd",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is ambiguous whether case reserves including or excluding loss expenses is desired.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "d3cf2b6292db43b59b02bd5745891d63",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "The calculation for \"Increasing rate\" could involve calculating the percentage change or the absolute change and applying either to the most recent value.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9c23b73a995948f9b23872a3459249f5",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "It is ambiguous whether the decrease in cash should be presented as-is (negative number) or as the absolute change.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "de9103575d994e2888c7991534fe865d",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage. Additionally, The rate is not increasing; so, plausible answering would be to report the decrease, or to point out the contradiction.\n",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Generalize"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a974f7385c4f4b0f9a8eca5d3ed67d49",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Growing rate\" could refer to a difference or a percentage. Additionally, The rate is not increasing; so, plausible answering would be to report the decrease, or to point out the contradiction.\n",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Generalize"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "59415dfea2a841ad88b08342803c57e0",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"sections\" could refer to various aspects of the source document",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "522ad37e12fc4635b985f4e260f11292",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "The query could be plausibly interpreted to literally request all values in the appropriate column not smaller than 15, or a more useful answer that does not double-count overlapping values",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "03598287e3bc408eaecac0625df10d02",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Table 2 includes municipal investment information for both CitiCorp and Citi Holdings seperately. It is unclear whether the answer should include one or both.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "3bec9340f96a4203a779a322b141564d",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It's up to interpretation whether increasing rate should be 2011 to 2012 or 2012 to 2013, since assets are reporting during the middle of the year. It is also possible that some standard for \"fiscal year\" should be used rather than a calendar year.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "51e770acb34b4fe5aab2291cea15b86a",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is unclear whether the answer should include all values in the requested column, resulting in double-counted values, or exclude the total.",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "5606b62da32c4f36b657e24f900a8995",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is unclear whether the literal total of values in the column, or one of the presented totals should be used.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c12380b3eb184cd784dff3ce4d1715c2",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"Amount of company\" and \"sum of bank\" could refer to various items",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a515790e4a494f5c92d58f98a677b42e",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Multiple metrics for \"diluted\" and \"basic\" are available",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f5b5bb74596148978c9f5ea7efb1a149",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "\"Proportion\" could refer the amount in the segment, or the percentage of equite awards it accounts for",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "e5de15267fb74088a49303c1ee900ec4",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "\"Total revenues\" could refer to CIEs or after adjustments",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "52f961dde2d945619858d5badc09a121",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "It is unclear whether the answer should include the magnitude of the table values or the literal table values",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)",
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "54fc7e5b99214f50abd1912b4b9de1af",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "\"increasing rate\" could refer to the absolute difference or percentage difference",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)",
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "eff05dae264e4be8916008cd21fdc505",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Multiple tables reference the silicon systems group; it isn't clear which should be used. One contains new sale information and the other contains net sales.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "04afd9b5c75143f8a4650abe46bb45e6",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Query",
+      "description": "\"increasing rate\" could refer to the absolute difference or percentage difference",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)",
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0531fa8924bb456badce428733481eb6",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Data",
+      "description": "Too many rows with the same label.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7a86723a576d4aabb5beaf8236f32cc8",
+    "ambiguity_annotation": {
+      "status": "ambiguous",
+      "subcategory": null,
+      "source": "Both",
+      "description": "\"Average amount of Employee separations of Other\" is unclear as it could refer to several different values in the table. It is unclear whether the date range from the second clause should also apply to the first.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "071e671820fa4f89b003923a38b03741",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "Both beginning-of-year and end-of-year figures are available.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "dd1d1e44f41f4a559afbdc851588faac",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "The question refers to a baseline year which conflicts with the wording of \"what's the increasing rate of Card Member rewards in 2014\". \"increasing rate of Card Member rewards in 2014\" is also subject to ambiguity.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "ae2ce9e907114dd786d4a02437917f15",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Information exists for aggregate contractual principal on 2 different categories of loans; unclear if question refers to only one or the sum of both",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b3636117d30545eebb2a2f2a9afea0ae",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Table 3 and Table 4 both contain data for \"Equity securities\" amounts. Table 3 is for the general account excluding Japanese operations, and Table 4 is specifically for the Japanese insurance operations. The question doesn't want both but does not state this.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9921e1041a444541a646fe8b24f0973b",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The condition \"where entergy New Orleans is greater than 20\" is unclear",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Generalize"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "3ddd52dafa8641b4a7b583f241fe16ce",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "\"total amount\" could refer to number of sections or sum of values for sections. \"Corporate\" is a row under multiple headers; the query could refer to nonaccrual loans, past due, etc.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize",
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "3cb9250ec4c144ad9c2d9442c8bedb2d",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "Total could refer to the literal total values in the referred-to column, or the gross assets in which case adding all qualifying columns would result in double counting",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a23dec46ebaa4b4e998efaf4b0d3f64d",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "Ambiguity in \"total\" of two disparate values. \"total\" could refer to the sum of the literal numbers in each table, or the sum adjusted for units.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "6aa9d84c31cf42fda5c1ca840c33a0cb",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "It is unclear whether \"in 2018\" applies to both clauses, resulting in scenarios where operation and maintenance values may or may not be considered in the total count",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "6c0c874d6b5e45f0ba48a447cd8d7234",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "\"sum of the Second Quarter 2012\" is nonsensical without reference to a table. \"Second Quarter 2012\" is a time period but it is never specified which values should be summed for that quarter.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "39ca332fc482425a94d9ad74b2adc119",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "There is information on equity securities in two tables: one regarding 2012 and one regarding 2013. While it could be assumed that information from the most recent year should always be retrieved when possible, this still introduces potential temporal ambiguity",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "afbe76c75776466e992ca12d1bf7cf98",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "The term \"growing rate of Annual\" is ambiguous; the query is malformed when not presented alongside a specific table as context",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c30b113fd95f469682ac8ab0e07c7a1e",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "It is unclear which values the average should be taken- each one separately over available years, or each of them from the most recent year",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a76ffcd4626241179ae83d59841a141a",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The report contains information on Foreign govt./govt. agencies, Municipal, RMBS and U.S. Treasuries for Fair values for December 31, 2010, and December 31, 2011. The query does not specify a year for which the user wants information.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f0ea400c499d4a0a86524fc61bbff366",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The table containing operating lease information has columns for fiscal years 2018, 2019 -20, and 2021-22. It is unclear what the \"fiscal year\" 2018 represents, since other fiscal years include a range of 2 years.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "ef1755ab29764e3ab736d485977b8ef6",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "It is unclear whether the user wants two separate answers or a total sum",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "e7a8899814ae446480d9b92145f9f738",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "It is somewhat unclear whether the user wants the sum of the change in values, or the sum of the values. Additionally, since there is no common-sense reason why the answer to this question would be useful, it is difficult for the LLM to decide based on common sense.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b62a19b09dfd4d4a95254566980f3431",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The answer is the average of all values in the \"Share Repurchase Program\" row, but this results in a nonsensical, non-useful value as this would be averaging numbers of shares and dollar amounts.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "22f7febe1e9f450c8f8993ad86db73d0",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "\"difference between the greatest Fixed income\" is nonsensical; \"income\" is likely a typo for \"incomes\". ",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "8ca8fbf0227a42d1ab2ac8843a48965b",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "It is ambiguous whether or not Sales Volume subtotals, e.g. \"Total U.S.\" or \"Consolidated Operations\", could be considered, or if only the most specific regional divisions should be considered.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b448e40e3c7b429f8ace7fe106e8e196",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The singular value for Net current-period other comprehensive income is available, so it is unclear whether to provide that singular value, or average the sub-values (singular value/3)",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9b2dc866091743d7b190417a4307a3c4",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Change\" could refer to the difference, or change in percentage.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "161facf717424d17af248fcb4fdb738a",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "\"Growth rate of balance\" likely refers to the total Balance for Goodwill in Table 2, but other tables refer to segmented balances that could also be valid answers. ",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7389cfa35a894e14bf0773e29d326973",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Because this question doesn't result in a meaningful answer, it could be interpreted as requesting the sum of the raw cell values or the sum normalized for units.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9df041a1ce9440c2aaaf77f773811fcb",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "\"Amount of Amount\" is ambiguous; it is unclear whether the sum should include the \"total\" already included in the \"Amount\" column",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "91afe10a7407428c9bbad202945e060e",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "\"average operating leases 2014rental expense\" might be an accidental combination/conflation of multiple queries, as the rest of the query regards the years 2009-2011",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "838d349beccf4e2ebb0c04f518fa07e4",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The requested values are available for multiple segments: consumer insurance, and retirement. The query does not specify which should be targeted, or both.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "c13fa72b574148919afc23e78f714d6d",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"total\" could refer to the total for each category, or the sum of both",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "33d5053de07b49c5a72d566e852ab58a",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"total\" could refer to the total for each category, or the sum of both",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "082e18b816824239b23471ae9413035a",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The literal rate can be measured from the table, but notes on the table state that the change in 2019 is meaningless; this results in a situation in which elaboration is desired",
+      "taxonomy": {
+        "at_cot": [
+          "Unknown"
+        ],
+        "clamber": [
+          "Unknown"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "77a0b4dbe903419399b79b1e026f1fae",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Range\" could refer to the numerical span, or the two numbers defining the edges of the range",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "20729bcdbf344361ba56abb6e40d5cd2",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "The calculation could use precise numbers from the table or rounded numbers from the text, and the \"change\" could be expressed as an absolute magnitude or the negative percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "e988a4c9e9b7439a91474e7f7db187a9",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "Expenses in the provided tables are expressed as negative numbers to contrast with gains, but in the answer could be expressed as the negative number or the magnitude.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "bc2b34a04ec546ca961c819c6af00f9f",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"percentage decline\" could be expressed as the negative number calculated or as the magnitude of decline",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "7df1feb3010b492792ea639cf7157325",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "\"Portion\" could refer to the percentage or the total value available",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f1fb5804d9744cd39b8d4b71d36f6248",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "\"The first quarter\" is ambiguous as the report includes data on several years. Additionally the lack of units specified could result in a discrepancy.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (when)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "1715c5bee969430ca87138f595352a89",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "\"Current rate\" is ambiguous as it could refer to linear growth, growth over the past reporting period, or over several years etc.; additionally, this data is available for multiple regions, which could be represented as the total over regions or as individual regions",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "458adb9f65544b6aad881027e7e57066",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "\"Total amount\" could refer to several line items and is not specified. The condition, \"where FEP is greater than 80\", could be strictly applied to numbers in the FEP row; however, since the values are mismatched in units, this does not entirely make sense. One could assume that the intent was to apply the condition either to % ownership or pipeline milage.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "abea211716f14f999997de3ae74c31be",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "Question contains uninterpretable string of numbers. A plausible interpretation is to ignore the numbers as a typo.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "80f1bd5b56e24c75a15086e99f5ee028",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "\"Year\" could include or disclude \"2027 and thereafter\"",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "800dfc504b4f493dbc61abdba37d6ee0",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "Asks for increasing rate while answer is negative; plausible answers include giving the negative percentage or, in a conversational setting, explaining the contradiction",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Generalize"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "58a02e41e02f436ba2e9939b18a491ce",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Both",
+      "description": "It is unclear which unit should be reported",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "4c7c479092d9477dbfe9f97d7b8f2506",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The tables provide different units for each value. It is unclear whether the query asks for the raw values added, or adjusted for units.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "a5dab33c122b45ce952862ee566a5804",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "It is unclear whether the condition \"in thousands\" applies to the filter on sections, or to the final answers",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "025c990621644b9d997251f7c8b7c781",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "The negative value as well as absolute values are both plausible since the adjustment is negative",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "e9fa52d8275443bf83a538944ebefaf2",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The query asks for an increasing rate however the Interest cost is decreasing.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "5630a213b4ba454cad2c4456ef8406c9",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The query asks for an increasing rate however the rate of deposits is decreasing.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "26af8a9a42704dc7856984df5d462891",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "The difference between 2003 and 2003 is literally zero; however this is likely a typo",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "930465d2a8a14fbc9c3de57267a5f067",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "89fbb8e974134821a850e9e1ad8f9f95",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Table 3 gives subtotals as well as totals for financial standby letters of credit. It is unclear whether the query want the sum of all these values (including the Total reported in the table), or just the Total rreported in the table, which would be the more sensible answer.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "9819c81ad06b4d2b995c90e8ba2a657c",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The rate is not increasing; so, plausible answering would be to report the decrease, or to point out the contradiction.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "725b44d00ae04a63a5c4d94fea285683",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "It is unclear which types of off-balance obligations should be included.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "99e146052384452097deb6f728b6c7f2",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "The table contains values for fair value and principal amount withstanding for the loan; the literal interpretation would add these two numbers whereas a nuanced interpretation accounts for the overlap in values.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "d60ad199f8ad47eaa33024fc316b3692",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0027ab14645143c4b83807dd7f645399",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "The premium (amount over the baseline) could be expressed as a dollar amount or as a percentage.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "2f6b9099ece142669dfe15f3736d9a8c",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "429b4e9a62464173a2e9278cbb9f2417",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "8ce90c190a1e4175a4a34ca835a6506b",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The rate is not increasing; so, plausible answering would be to report the decrease, or to point out the contradiction.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "12d5979317f0464ead500253a9a3d8db",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "22b60fda1d0b4159b8aedf2fd5a5c576",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "The question does not specify which units of measurement the answer should be reported in",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "20bfb9c1ba0141a09156cd8d307a9309",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Other operations and maintenance could be considered as 1 value or segmented into different values resulting in different averages.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f003494d91e043b7982800cca9cc6a42",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "It is unclear whether the condition applies to the sum, or to each value being summed.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "aa8829d2eed74c41bfdf6e168b7fb72d",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"decrease\" could refer to an absolute difference or a rate",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "54013e658a63468d82d46b6cf9113ca4",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Increasing rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "742fcf0d4b3441e8973358e3d341bc35",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "Query could be requesting the literal table value ratio, or the ratio adjusted for differing units",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "05ccb33fe3fe47baa47385c1f66df856",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Total\" could refer to each value requested separately, or added together",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b3eb9a09268d42899dee2068e1fc1354",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"growth rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "6d291f42ba4648d9af86a8d75a0bdded",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Data",
+      "description": "The query doesn't specify which unit to output the answer in, while the provided tables give units in thousands",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (lexical)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "776342a2d8c1492286eedc213289f373",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Both",
+      "description": "The query asks for the growth rate, but \"Outstanding\" doesn't grow",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "b80f0062d0f442d9bc6f2e8ad4f79854",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"growth rate\" could refer to a difference or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "4df9190861cf4eaabf87d87176fcf8d1",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Representational",
+      "source": "Query",
+      "description": "\"Rate\" could refer to absolute change or a percentage",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0bcf9238356d41029754e323fa14108d",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Query",
+      "description": "It is unclear whether the \"2006\" condition also applies to the first clause of the query",
+      "taxonomy": {
+        "at_cot": [
+          "Specify",
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)",
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "79e3c22e2d934ac1a08c5b58781a9c7a",
+    "ambiguity_annotation": {
+      "status": "mostly unambiguous",
+      "subcategory": "Pragmatic",
+      "source": "Data",
+      "description": "The values needed have different units; it is unclear whether the query requests the literal values summed or the adjusted values summed",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "61684e3f70ae4816b8c121726ac1ec89",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [
+          "Unknown"
+        ],
+        "clamber": [
+          "Unknown"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "5b751365d74a42548d2cbf9e7a3c206d",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "6189850279cf4acc94c52e1fe46315f4",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "859ddaa4993048b1978ff5b0b6bf0a92",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "92c854f5e21144a6930f3a0e28bbd6b3",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "0b4bd52eba1049feb79cda6825398a10",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "c8beae1d29044bc1aa1c6dbffde5e4b5",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "7c4b646f6f2a48d6afb5ad9e248a2458",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "5a7672d63a894a2dac6019b4fd8662e0",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "e34ab4af388f4256806d6378d36133e9",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "11e82cf7ec6d4e1d90094952201201e7",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "68b1ad2c874542ffa0a9e0d85e11481c",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "bcd213abf83446ba8dccb444e264d74f",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "ab9c286273864e8fb845dec27027a164",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "a45b8735d44648ea9a663c914a4eea6a",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f078da0e81734e75a1796b1a986e8f47",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "5dad12f9166f409faf02bcf2ba2eab4e",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "ea582b2747ec49e695bf8a629441ef70",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "e3a491a3539144fdb654153457e4df2e",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "e68d0c563caf484287f0e69577329a4c",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "097b805f848244a39865b4ceba0dd30a",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "90b9b7fdf3b24dafa2e56608af95ba9d",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "0424fed0f39947f4b8a0db5e6e5be730",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "509bdf8e0a4b456b952cd64524b836f6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "022e22592e354d7c9c9489e9a91ff4e6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "5795dd94b6744b6a8341f7780893d876",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": "True answer should be 6.9",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "90641e4d55e6402e819a770fa5a6d64c",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [
+          "Semantic",
+          "Specify"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "d9db43630d4d4c859d74b2cf057c69bf",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "417efd8e13d8479591443c95c88a04fa",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "5e586cbcd53a443aa08963c29ee71bc2",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "73e5a61285a24255bb9c67aa68f2a100",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "9e813eb8c59649d996c1d875af71568e",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "a7d2dd8d6ce8494eb3e272542d4d5477",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "4f164feded3a46a28b1afda12a4411f2",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "67f4d879bcb24b989f435fb012e56ba6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "3d7ffc06a71f40d482f119c392c8bebe",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "c3d8a802d12a4305a5696a4b759d7284",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "ea614135f42b43ba895af2adb0ce41b2",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "c8d541d7e0ee4009b2911fed6f276ebf",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0eb2d44eeb0141acadc3c0001578416a",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "60eb9b850df64568b4b02bd869fc2fa6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "8d31bd87a7f64e4d9acd5ec44217b932",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": "Original answer uses a subset of revenues.",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "effbacfbd55842658fd9993d6048bda1",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": "Original answer skips a row value.",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "fac974bd07334037b2da805e46c65662",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "000682417fd9450bb10fee113dae5fcc",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "8b952dba2f3740cf8636e5cd3a81309f",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "96b427a2a0c14d36a5f4ea8af3ec6572",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "8ce2db08e664492193dc999d6bdb12e8",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "7c14962a8b71476f9650f9e84f1a6ecb",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "b9e0b4026745470799ff808522091ddb",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "032145bd6fdd4712b05cd5495f7c8f35",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "552b3be874334b8ea1e35c60add96ac7",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "adb2559bbd35430a932559fb97196602",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f6e2f94f5f2841a993eaed5577bdece2",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f9c419c21ee8451c88e6eebfba064b25",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "61cb0fe4323f4cb5b3693258e02e01aa",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "af20ab8bd3c140ce90eb0d3e92aaaeb7",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f790e8acf95b49c88751230a8ca89e8f",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "86ee350930114af49f8557063a8274d7",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "03bc78ef8c694edeb9051490ff7b1e03",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "598b19e95b3e47e686d994b9e1dba3d6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "b5bb5548008745d492e7088fa9a67b11",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "054e38d434694ed8a5c8f8c65ce10214",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "05be07b07d5a44ca8398c7ec38271bc6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f7ec51ba9e154506928cce9df7a501d0",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "f8a8514db1694a25a8c0944a485c2ed6",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "86f31e964fb14d2e8c00070ea9c07c1d",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "e0f9702f7b43471cb8a3b66fe632fa65",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "2b2f7a20787b4695addf24f47fb8cb64",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "dddf3b0b4cd148139854279b0df09c95",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "b1da80d0135d4afdb8de1841b32f0f60",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "a89afa083bd74f46819fa14c303be893",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "862d583c5aeb45d9891497a47be8ac61",
+    "ambiguity_annotation": {
+      "status": "unambiguous",
+      "subcategory": null,
+      "source": null,
+      "description": null,
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "9a4d7971526a44fab417a6a9463d3294",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "Temporal period is ambiguous; Construction Payable of Estimated Fair Value is available for 2 years, neither of which is 2013.",
+      "taxonomy": {
+        "at_cot": [
+          "Generalize"
+        ],
+        "clamber": [
+          "Aleatoric output (when)",
+          "Epistemic misalignment (contradiction)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "f6af4df731d44ef8a74ae72330da5db5",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "Question is mostly nonsensical. There is no table or text data referring to any kind of 'Amount' for Pan AmFairFax or Shoppers'WorldCharlottesville, with any kind of rate for comparison.",
+      "taxonomy": {
+        "at_cot": [
+          "Semantic"
+        ],
+        "clamber": [
+          "Linguistic ambiguity (semantic)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "2ebac34fbb6b42ff8efd8814467cd17d",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "The provided document does not include information on rd&e for the year 2014.",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "811fb28cfd0743f6bde756ff2183acb4",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "Information is not available over multiple years",
+      "taxonomy": {
+        "at_cot": [],
+        "clamber": []
+      }
+    }
+  },
+  {
+    "uid": "749e1d05bf7f4fe584d2f98afbb6ccb9",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "Asks for number of outstanding shares but the only data is about shareholders",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  },
+  {
+    "uid": "0141e3e049a24db2a5c312fa84ad6201",
+    "ambiguity_annotation": {
+      "status": "unanswerable",
+      "subcategory": null,
+      "source": null,
+      "description": "Can't calculate market share from table data.",
+      "taxonomy": {
+        "at_cot": [
+          "Specify"
+        ],
+        "clamber": [
+          "Aleatoric output (what)"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "multihiertt_ambiguity_dev.json": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "MultiHiertt + ambiguity annotations (full records)",
+    "type": "array",
+    "items": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "MultiHiertt record + ambiguity annotation",
+      "description": "A MultiHiertt record with one additional field, `ambiguity_annotation`, added by this project's manual ambiguity review.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tables": {
+          "type": "array"
+        },
+        "table_description": {
+          "type": "object"
+        },
+        "qa": {
+          "type": "object"
+        },
+        "ambiguity_annotation": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "unambiguous",
+                "mostly unambiguous",
+                "ambiguous",
+                "unanswerable"
+              ]
+            },
+            "subcategory": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Representational",
+                "Pragmatic",
+                null
+              ]
+            },
+            "source": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Data",
+                "Query",
+                "Both",
+                null
+              ]
+            },
+            "description": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "taxonomy": {
+              "type": "object",
+              "properties": {
+                "at_cot": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "clamber": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "at_cot",
+                "clamber"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "status",
+            "subcategory",
+            "source",
+            "description",
+            "taxonomy"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "uid",
+        "paragraphs",
+        "tables",
+        "table_description",
+        "qa",
+        "ambiguity_annotation"
+      ]
+    }
+  },
+  "ambiguity_annotations_only.json": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Ambiguity annotation (annotations-only join file)",
+    "description": "Join this file on `uid` against an official MultiHiertt release to reconstruct full_record_schema.",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string"
+        },
+        "ambiguity_annotation": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": [
+                "unambiguous",
+                "mostly unambiguous",
+                "ambiguous",
+                "unanswerable"
+              ]
+            },
+            "subcategory": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Representational",
+                "Pragmatic",
+                null
+              ]
+            },
+            "source": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+                "Data",
+                "Query",
+                "Both",
+                null
+              ]
+            },
+            "description": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "taxonomy": {
+              "type": "object",
+              "properties": {
+                "at_cot": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "clamber": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "at_cot",
+                "clamber"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "status",
+            "subcategory",
+            "source",
+            "description",
+            "taxonomy"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "uid",
+        "ambiguity_annotation"
+      ],
+      "additionalProperties": false
+    }
+  }
+}
