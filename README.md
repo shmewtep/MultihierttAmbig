@@ -1,6 +1,6 @@
 # MultiHiertt Ambiguity Annotations Dataset
 
-This dataset extends the [MultiHiertt](https://github.com/psunlpgroup/MultiHiertt) financial question-answering dev set with a manual review layer that flags questions whose gold answer is ambiguous, under-specified, or unanswerable given the source document.
+This dataset extends the [MultiHiertt](https://github.com/psunlpgroup/MultiHiertt) financial question-answering dev set with a manual review layer that flags questions as unambiguous, ambiguous, or unanswerable given the source document.
 
 ## Files
 
